@@ -1,0 +1,8 @@
+.nav {
+  grid-area: nav;
+  background-color: blanchedalmond;
+}
+
+li {
+  list-style-type: none;
+}
