@@ -15,8 +15,8 @@ const Posts = ()=>{
         </button>
       </div>
       <div className="posts-list-container">
-      <Post/>
-      <Post/>
+      <Post text="post 1"/>
+      <Post text="post 2"/>
       </div>
     </div>
     );
