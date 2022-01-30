@@ -1,13 +1,13 @@
 import React from "react";
-import "./Header.css";
+import styles  from "./Header.module.css"
 
 const Header = ()=>{
     return(
-<header className="header">
+<header className={styles.header}>
           <img
             src="https://cdn.logo.com/hotlink-ok/logo-social.png"
             alt="logo"
-            className="logo-img"
+            className={styles['logo-img']}
           />
         </header>
     );

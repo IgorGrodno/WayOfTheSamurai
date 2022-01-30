@@ -1,9 +1,9 @@
 import React from "react";
-import "./NavBar.css";
+import styles from  "./NavBar.module.css";
 
 const NavBar = ()=>{
     return(
-<nav className="nav">
+<nav className={styles.nav}>
           <ul>
             <li>
               <a>Profile</a>
