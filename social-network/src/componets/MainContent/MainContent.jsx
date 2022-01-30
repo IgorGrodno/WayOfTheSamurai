@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./MainContent.module.css";
+import Posts from "./Posts/Posts";
 
 
 const MainContent = ()=>{
@@ -25,21 +26,7 @@ const MainContent = ()=>{
         </div>
       </div>
     </div>
-    <div>
-      <div className="my-posts-label">My posts</div>
-      <div className="my-posts-textarea-container">
-        <textarea id="post-text" className="post-textarea"></textarea>
-      </div>
-      <div className="send-button-container">
-        <button id="post-send-button" className="post-send-button">
-          Send
-        </button>
-      </div>
-      <div className="posts-list-container">
-        <div className="post">post 0</div>
-        <div className="post">post 1</div>
-      </div>
-    </div>
+    <Posts/>
   </div>
     );
 }
